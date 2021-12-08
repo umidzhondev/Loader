@@ -65,18 +65,21 @@ body{
         transform: rotate(-2700deg);
     }
 }
-@media (max-width: 992px){
+@media (max-width: 1200px){
     .item{width: 450px;height: 450px;}
 }
+@media (max-width: 992px){
+    .item{width: 420px;height: 420px;}
+}
 @media (max-width: 768px){
-    .item{width: 400px;height: 400px;}
+    .item{width: 350px;height: 350px;}
 }
 @media (max-width: 578px){
-    .item{width: 370px;height: 370px;}
+    .item{width: 200px;height: 220px;}
 }
 @media (max-width: 400px){
-    .item{width: 330px;height: 330px;}
+    .item{width: 180px;height: 180px;}
 }
 @media (max-width: 350px){
-    .item{width: 280px;height: 280px;}
+    .item{width: 130px;height: 130px;}
 }
