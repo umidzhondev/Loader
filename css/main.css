@@ -30,6 +30,7 @@ body{
     font-size: 3rem;
     text-shadow: 0 0 30px rgb(20, 163, 220);
     color: #fff;
+    text-align: center;
 }
 .loader{
     display: flex;
