@@ -75,10 +75,16 @@ body{
     .item{width: 350px;height: 350px;}
 }
 @media (max-width: 578px){
-    .item{width: 200px;height: 220px;}
+    .item{width: 200px;height: 200px;}
+    .item::before{
+        border-width: 40px;
+    }
 }
 @media (max-width: 400px){
     .item{width: 180px;height: 180px;}
+    .item::before{
+        border-width: 33px;
+    }
 }
 @media (max-width: 350px){
     .item{width: 130px;height: 130px;}
