@@ -31,6 +31,15 @@ body{
     text-shadow: 0 0 30px rgb(20, 163, 220);
     color: #fff;
     text-align: center;
+	background-color: #00abff;
+	border-radius: 25px;
+	padding: 20px;
+    transform: scale(.5);
+    transition: transform .9s ease;
+    transition-delay: 1s;
+}
+.title.scale{
+    transform: scale(1);
 }
 .loader{
     display: flex;
